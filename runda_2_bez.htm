@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <title>Glavni Ekran</title>
+      <link rel="stylesheet" href="css/style.css" />
+  
+  <SCRIPT ID=clientEventHandlersJS LANGUAGE=javascript>
+<!--
+function gasi()
+{ 
+  if (document.getElementById("ima_klub").value==2)
+    { document.getElementById("d1").style.visibility="hidden";
+      document.getElementById("d2").style.visibility="hidden";
+      document.getElementById("d1").className="no_data";
+      document.getElementById("d2").className="no_data";
+     } 
+  if (document.getElementById("ima_ples").value==2)
+    { document.getElementById("n1").style.visibility="hidden";
+      document.getElementById("n2").style.visibility="hidden";
+       document.getElementById("n1").className="no_data";
+      document.getElementById("n2").className="no_data";
+     } 
+    if (document.getElementById("ima_klub").value==2  &&  document.getElementById("ima_ples").value==2)
+    {document.getElementById("s1").className="pairNoIDO_2_bez";
+      document.getElementById("s2").className="pairNoIDO_2_bez";}
+ }
+function window_onload() {
+  gasi();
+
+}
+
+
+//-->
+</SCRIPT>   
+
+   </head>
+  <body LANGUAGE=javascript onload="return window_onload()">
+   <input type="hidden"  id="ima_klub" value="#ima_klub#">
+    <input type="hidden"  id="ima_ples" value="#ima_ples#">
+      <div class="header">
+         <div class="left">
+            #fed_logo#
+         </div>
+         <!-- end left -->
+         <div class="center">
+            <p class="eventTitle">#naziv_event#</p>
+            <!-- end eventTitle -->
+            <p class="competitionName">#naziv_comp# - #runda#</p>
+            <!-- end competitonName -->
+            <p class="heat">(Heat: #rbr# / #uk#)</p>
+            <!-- head -->
+         </div>
+         <!-- end center -->
+         <div class="right">
+            #org_logo#
+         </div>
+         <!-- end right -->
+      </div>
+      <!-- end header -->
+      <div id="mainArea">
+         <div class="row">
+
+<!-- ***************************  KOPIRANO IZ DVA FLOORA **********************  -->
+            <div class="floor one oneF">
+               <div class="tablica_floor oneF">
+                  <!-- prostor za tablicu prikaza - prvi floor -->
+  <div class="triPara"> <!-- display: table-cell -->     
+    <p class="pairNoIDO" id="s1">#stb_1#</p><!-- end pairNo -->
+    <p class="pairNameIDO one" id="n1">#naziv_1#</p><!-- pairName -->
+    <div class="pairCountry" id="d1">
+    	<span class="CountryClub">#drzava_1#</span>
+    </div><!-- end pairCountry -->
+</div>
+
+               </div>
+               <!-- end prostor za tablicu prikaza - prvi floor -->
+            </div>
+            <!-- end floor1 -->
+            
+            <div class="floor two oneF">
+               <div class="tablica_floor oneF">
+                  <!-- prostor za tablicu prikaza - drugi floor -->
+
+<div class="pairOne dvaF">
+    <p class="pairNoIDO" id="s2">#stb_2#</p><!-- end pairNo -->
+    <p class="pairNameIDO one" id="n2">#naziv_2#</p><!-- pairName -->
+    <div class="pairCountry" id="d2">
+    	<span class="CountryClub">#drzava_2#</span>
+    </div><!-- end pairCountry -->
+</div>
+
+               </div>
+               <!-- end prostor za tablicu prikaza - drugi floor -->
+            </div>
+            <!-- end floor2 -->
+
+<!-- ***************************  KOPIRANO IZ DVA FLOORA **********************  -->
+
+
+         </div>
+         <!-- end row -->
+      </div>
+      <!-- end mainArea -->
+      <div id="footer">
+         <div class="left">
+         </div>
+         <!-- end left -->
+         <div class="center">
+            <img src="banner.jpg">
+         </div>
+         <!-- end center -->
+         <div class="right">
+         </div>
+         <!-- end right -->
+         <div class="disclamer">
+            LPRDS &copy; - Linum Protocol &amp; Results Display System - Design and presentation by LINUM
+         </div>
+         <!-- end disclamer -->
+      </div>
+      <!-- end footer -->
+   </body>
+</html>

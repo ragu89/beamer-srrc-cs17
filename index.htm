@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>     
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+        <input type="hidden"  id="last_ref" value=0>
+      <input type="hidden"  id="new_ref" value=0>
+   <iframe  name="ifr" id="ifr"   scrolling="no" class ="glavna"></iframe>    
+ <iframe  name="2ifr" id="2ifr"    scrolling="no" class ="glavna2" ></iframe>    
+  
+  
+   
+   
+    <script type="text/javascript">
+        window.setInterval(function() {
+            showToast();
+        }, 800);
+ 
+        function showToast() {        
+                var staro=document.getElementById("last_ref").value;
+                  document.getElementById('2ifr').src="zadnji_rez.htm";
+                var novo=document.getElementById("2ifr").contentWindow.document.body.innerHTML;
+              
+                if (novo > staro) {               
+                     document.getElementById("last_ref").value=novo  ;
+                     document.getElementById('ifr').src="glavna.htm";
+                }
+         //   });
+            
+        }
+
+
+        showToast();
+        
+
+        
+    </script>
+</body>
+</html>
