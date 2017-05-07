@@ -31,6 +31,7 @@ iframe.glavna2
 /* Body */
 /*********************************************************************************/
 
+body,
 .mainpage_bg,
 .mainpage2_bg {
     background-color: black;
@@ -147,6 +148,10 @@ h1 {
 
 .tablica_floor.oneF { /* DIV u koji se smješta tablica za lijevi ili desni par, kad je samo jedan podij */
     height:100%;
+}
+
+.pairOne.one {
+    padding-top:5rem;
 }
 
 .pairPlace {
