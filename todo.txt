@@ -1,0 +1,2 @@
+[ ] Check Red / Yellow cards display
+[ ] Test Full HD resolution
