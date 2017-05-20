@@ -287,48 +287,35 @@ tr.tableRows td {
 .pairWinerOne,
 .pairWinerTwo,
 .pairWinerThree {
-	border-style: solid;
-    border-width: 1px 4px 4px 1px;
-	border-color:rgba(0,0,0,0.5);
-	border-radius:1.8rem;
+	border-radius:50rem; /* max. to be a circle */
     font-size: 3.000rem;
     margin-bottom: 1rem;
     color:#FFF;
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.8);
-
+    vertical-align: middle;
 }
 
 .pairWinerOne{
-    margin-left:30%;
-	width:40%;
-    background: -webkit-gradient(linear, left left, left right, from(#FFD700), to(#DAA520));
-    background-image: -webkit-linear-gradient(left, #FFD700, #DAA520, #DAA520,  #FFD700);
-    background-image: -moz-linear-gradient(left, #FFD700, #DAA520, #DAA520,  #FFD700);
-    background-image: -ms-linear-gradient(left, #FFD700, #DAA520, #DAA520,  #FFD700);
-    background-image: -o-linear-gradient(left, #FFD700, #DAA520, #DAA520,  #FFD700);
-    background-image: linear-gradient(to left, #FFD700, #DAA520, #DAA520,  #FFD700);
+    margin: 0 auto;
+	width:150px;
+    height:150px;
+
+    background-color: #ffd50f; /*#ffd50f*/
 }
 
 .pairWinerTwo{
-	margin-left:10%;
-	width:80%;
-    background: -webkit-gradient(linear, left left, left right, from(#FFD700), to(#DAA520));
-    background-image: -webkit-linear-gradient(left, #F5F5F5, #C0C0C0, #C0C0C0,  #F5F5F5);
-    background-image: -moz-linear-gradient(left, #F5F5F5, #C0C0C0, #C0C0C0,  #F5F5F5);
-    background-image: -ms-linear-gradient(left, #F5F5F5, #C0C0C0, #C0C0C0,  #F5F5F5);
-    background-image: -o-linear-gradient(left, #F5F5F5, #C0C0C0, #C0C0C0,  #F5F5F5);
-    background-image: linear-gradient(to left, #F5F5F5, #C0C0C0, #C0C0C0,  #F5F5F5);
+    margin: 0 auto;
+	width:150px;
+    height:150px;
+
+    background-color: #dbdbdb; /*#e6e6e6*/
 }
 
 .pairWinerThree{
-	margin-left:10%;
-	width:80%;
-    background: -webkit-gradient(linear, left left, left right, from(#FFD700), to(#DAA520));
-    background-image: -webkit-linear-gradient(left, #FFE4B5, #CD853F, #CD853F,  #FFE4B5);
-    background-image: -moz-linear-gradient(left, #FFE4B5, #CD853F, #CD853F,  #FFE4B5);
-    background-image: -ms-linear-gradient(left, #FFE4B5, #CD853F, #CD853F,  #FFE4B5);
-    background-image: -o-linear-gradient(left, #FFE4B5, #CD853F, #CD853F,  #FFE4B5);
-    background-image: linear-gradient(to left, #FFE4B5, #CD853F, #CD853F,  #FFE4B5);
+    margin: 0 auto;
+	width:150px;
+    height:150px;
+
+    background-color: #db9d36; /*#cd791f*/
 }
 
 /*********************************************************************************/
