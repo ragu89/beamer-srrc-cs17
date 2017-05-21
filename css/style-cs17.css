@@ -174,7 +174,7 @@ h1 {
 }
 
 .pairNo {
-    font-size:4.5rem;
+    font-size:3.0rem;
     /*border-color: #f00;
     border-width: 2.0;
     border-style: solid;*/
@@ -265,7 +265,7 @@ tr.tableRows td {
     float: left;
     height: 50%;
     width:99.33%;
-    margin: 2rem 0rem 2rem 0rem;
+    margin: 2rem 0rem 0rem 0rem;
 }
 
 .pairTwo{
