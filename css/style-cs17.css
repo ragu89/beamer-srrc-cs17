@@ -82,10 +82,6 @@ h1 {
 
 .headerTitle {
     color: rgba(0, 0, 0, 0); /* The text is hidden */
-    height: 350px;
-    background-image: url("../img-cs17/logo-championnat-header.png");
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .srrc-logo {
@@ -114,6 +110,11 @@ h1 {
 
 .place, .date {
     font-size: 1.5em;
+}
+
+.no-margin-padding {
+    padding: 0px;
+    margin: 0px;
 }
 
 #footerMainScreen {
