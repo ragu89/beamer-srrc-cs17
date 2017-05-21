@@ -124,7 +124,7 @@ h1 {
     height: 98%;
     width:49%;
     text-align:center;
-    padding-top:5rem;
+    padding-top:0rem;
 }
 
 .floor.one { /* IDO PODJELA NA DVA FLOORA - LIJEVI*/
@@ -151,7 +151,7 @@ h1 {
 }
 
 .pairOne.one {
-    padding-top:5rem;
+    padding-top:0rem;
 }
 
 .pairPlace {
@@ -248,7 +248,7 @@ tr.tableInfo td{
 }
 
 tr.tableRows {
-    height: 5.0rem;
+    height: 4.1rem;
     border-bottom: 1px solid gray;
 }
 
@@ -288,33 +288,26 @@ tr.tableRows td {
 .pairWinerTwo,
 .pairWinerThree {
 	border-radius:50rem; /* max. to be a circle */
-    font-size: 3.000rem;
+    font-size: 2.300rem;
     margin-bottom: 1rem;
     color:#FFF;
     vertical-align: middle;
+    
+    margin: 0 auto;
+	width:120px;
+    height:120px;
 }
 
 .pairWinerOne{
-    margin: 0 auto;
-	width:150px;
-    height:150px;
-
     background-color: #ffd50f; /*#ffd50f*/
 }
 
 .pairWinerTwo{
-    margin: 0 auto;
-	width:150px;
-    height:150px;
 
     background-color: #dbdbdb; /*#e6e6e6*/
 }
 
 .pairWinerThree{
-    margin: 0 auto;
-	width:150px;
-    height:150px;
-
     background-color: #db9d36; /*#cd791f*/
 }
 
