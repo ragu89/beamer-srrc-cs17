@@ -253,6 +253,11 @@ tr.tableRows {
     border-bottom: 1px solid gray;
 }
 
+tr.tableRows8 {
+    height: 3.6rem;
+    border-bottom: 1px solid gray;
+}
+
 tr.tableRows td {
     border: 0px;
 }
