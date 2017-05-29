@@ -211,6 +211,7 @@ h1 {
 }
 
 .pairResult {
+    color: #0095dd;
     font-size: 2.5rem;
     margin:0;
 }
