@@ -157,7 +157,7 @@ h1 {
 }
 
 .pairPlace {
-    font-size: 3.00rem;
+    font-size: 3.8vw; /* 3.00rem; */
     height: 1.5rem;
     padding: 0.250rem;
     margin-top: 2.0rem;
@@ -186,12 +186,12 @@ h1 {
 }
 
 .pairNo {
-    font-size:2.5rem;
+    font-size:3.1vw; /* 2.5rem; */
     margin:0rem 0rem 0rem 0rem;
 }
 
 .pairName {
-    font-size:2.0rem;
+    font-size:2.5vw; /* 2.0rem; */
     margin:0;
     margin:1rem 0rem 0.5rem 0rem;
 }
@@ -202,7 +202,7 @@ h1 {
 }
 
 .pairCountry {
-    font-size:1.5rem;
+    font-size:1.9vw; /* 1.5rem; */
     margin:0;
     margin:0rem 0rem 0.5rem 0rem;
 }
@@ -213,7 +213,7 @@ h1 {
 
 .pairResult {
     color: #e84351;
-    font-size: 2.5rem;
+    font-size: 3.1vw; /* 2.5rem; */
     margin:0;
 }
 
@@ -223,7 +223,7 @@ h1 {
 
 .marks > ul li, .marks.two > ul li {
     display: inline-block;
-    font-size: 2.0rem;
+    font-size: 2.5vw; /* 2.0rem; */
 }
 
 .marks > ul li:last-child{
