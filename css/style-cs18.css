@@ -78,7 +78,7 @@ body,
 h1 {
     font-weight: normal;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3.125vw; /*2.5rem;*/
 }
 
 .headerTitle {
@@ -86,23 +86,28 @@ h1 {
 }
 
 .srrc-logo {
-    height:70px;
-    margin-top:25px;
+    height:5.5vw;/*70px;*/
+    margin-top:2.3vw;/*25px;*/
+}
+
+.event-logo {
+    height:9vw;
+    margin-top:0.5vw;
 }
 
 .eventTitle {
     margin:0;
-    font-size: 2rem;
+    font-size: 2.5vw;/*2rem;*/
 }
 
 .competitionName {
     margin:0;
-    font-size: 2rem;
+    font-size: 2.5vw;/*2rem;*/
 }
 
 .heat {
     margin:0;
-    font-size: 2rem;
+    font-size: 2.5vw;/*2rem;*/
 }
 
 /*********************************************************************************/
@@ -114,16 +119,16 @@ h1 {
     right: 0;
     bottom: 0;
     left: 0;
-    padding: 1rem;
+    padding: 1.25vw;/*1rem;*/
     background-color: #e84351;
     color:#FFF;
     text-align: center;
-    height: 70px;
+    height: 6vw;/*70px;*/
   }
 
   .footer-logo {
-      height:60px;
-      margin-top:12px;
+      height:5vw;/*60px;*/
+      margin-top:1vw;/*12px;*/
   }
 
 /*********************************************************************************/
@@ -147,7 +152,7 @@ h1 {
     height: 98%;
     width:49%;
     text-align:center;
-    padding-top:0rem;
+    padding-top:0vw;
 }
 
 .floor.one { /* IDO PODJELA NA DVA FLOORA - LIJEVI*/
@@ -174,26 +179,26 @@ h1 {
 }
 
 .pairOne.one {
-    padding-top:0rem;
+    padding-top:0vw;
 }
 
 .pairPlace {
     font-size: 3.8vw; /* 3.00rem; */
-    height: 1.5rem;
-    padding: 0.250rem;
-    margin-top: 2.0rem;
+    height: 1.875vw;/*1.5rem;*/
+    padding: 0.3125vw;/*0.250rem;*/
+    margin-top: 2.5vw;/*2.0rem;*/
 
     border-color: #fff;
 
     border-style: solid;
     border-width: 1px;
-	border-radius:2.000rem;
+	border-radius:2.5vw;/*2.0rem;*/
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 	width:60%;
 	margin-left:20%;
-    height: 5.0rem;
+    height: 6.25vw;/*5.0rem;*/
 }
 
 .pairPlace.yellow { /* Yellow card  */
@@ -208,28 +213,28 @@ h1 {
 
 .pairNo {
     font-size:3.1vw; /* 2.5rem; */
-    margin:0rem 0rem 0rem 0rem;
+    margin:0;
 }
 
 .pairName {
     font-size:2.5vw; /* 2.0rem; */
     margin:0;
-    margin:1rem 0rem 0.5rem 0rem;
+    margin:1.25vw 0vw 0.625vw 0;/*1rem 0rem 0.5rem 0rem;*/
 }
 
 .pairName.one {
     font-size:3.0rem;
-    margin:0rem 0rem 0.5rem 0rem;
+    margin:0vw 0vw 0.625vw 0;/*0rem 0rem 0.5rem 0rem;*/
 }
 
 .pairCountry {
     font-size:1.9vw; /* 1.5rem; */
     margin:0;
-    margin:0rem 0rem 0.5rem 0rem;
+    margin:0vw 0vw 0.625vw 0;/*0rem 0rem 0.5rem 0rem;*/
 }
 
 .pairCountry.one {
-    font-size: 2rem;
+    font-size: 2.5vw;/*2rem;*/
 }
 
 .pairResult {
@@ -239,7 +244,7 @@ h1 {
 }
 
 .pairResult.one {
-    font-size: 3rem;
+    font-size: 3.75vw;/*3rem;*/
 }
 
 .marks > ul li, .marks.two > ul li {
@@ -248,14 +253,14 @@ h1 {
 }
 
 .marks > ul li:last-child{
-    margin-left: 2rem;
+    margin-left: 2.25vw;/*2rem;*/
 }
 .marks > ul li span.noVote i{
     visibility: hidden;
 }
 .marks > ul li i{
     display: block;
-    padding-bottom: 0.500rem;
+    padding-bottom: 0.625vw;/*0.500rem;*/
 }
 
 .icon-ok {
@@ -273,7 +278,7 @@ table {
 	border-spacing: 0;
     border: 2px solid #e84351;
     
-	margin: 2rem auto;
+	margin: 2.5vw auto;/*2rem auto;*/
     width: 90%;
 
 	font-size: 1.5em;
@@ -284,7 +289,7 @@ tr.tableInfo {
     text-align: center;
     
     background-color:#e84351;
-    height: 3.5rem;
+    height: 4.375vw;/*3.5rem;*/
 }
 
 tr.tableInfo td{
@@ -292,12 +297,12 @@ tr.tableInfo td{
 }
 
 tr.tableRows {
-    height: 4.1rem;
+    height: 5.125vw;/*4.1rem;*/
     border-bottom: 1px solid gray;
 }
 
 tr.tableRows8 {
-    height: 3.6rem;
+    height: 4.5vw;/*3.6rem;*/
     border-bottom: 1px solid gray;
 }
 
@@ -314,7 +319,7 @@ tr.tableRows td {
     float: left;
     height: 50%;
     width:99.33%;
-    margin: 2rem 0rem 0rem 0rem;
+    margin: 2.5vw 0vw 0vw 0vw;/* 2rem 0rem 0rem 0rem;*/
 }
 
 .pairTwo{
@@ -336,9 +341,9 @@ tr.tableRows td {
 .pairWinerOne,
 .pairWinerTwo,
 .pairWinerThree {
-	border-radius:50rem; /* max. to be a circle */
-    font-size: 2.300rem;
-    margin-bottom: 1rem;
+	border-radius:62.5vw;/*50rem;*/ /* max. to be a circle */
+    font-size: 2.875vw;/*2.300rem;*/
+    margin-bottom: 1.25vw; /* 1rem;*/
     color:#FFF;
     vertical-align: middle;
     
