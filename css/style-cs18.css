@@ -284,13 +284,14 @@ table {
 	margin: 2.5vw auto;/*2rem auto;*/
     width: 90%;
 
-	font-size: 1.5em;
+	font-size: 2.3vw; /*1.5em;*/
 }
 
 tr.tableInfo {
     font-weight: 550;
     text-align: center;
     
+    color:#FFF;
     background-color:#e84351;
     height: 4.375vw;/*3.5rem;*/
 }
