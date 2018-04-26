@@ -322,6 +322,11 @@ tr.tableRows td {
     display: inline-block;
     float: left;
     width:100%;
+    margin: 4vw 0vw 0vw 0vw;/* 2rem 0rem 0rem 0rem;*/
+}
+
+.win {
+    margin: 0;
 }
 
 .pairTwo{
