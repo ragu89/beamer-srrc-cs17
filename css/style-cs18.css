@@ -321,52 +321,28 @@ tr.tableRows td {
 .pairOne{   /* OSNOVNO - 5 PAROVA NA EKRANU */
     display: inline-block;
     float: left;
-    height: 50%;
-    width:99.33%;
-    margin: 2.5vw 0vw 0vw 0vw;/* 2rem 0rem 0rem 0rem;*/
+    width:100%;
 }
 
 .pairTwo{
     display: inline-block;
     float: left;
-    height: 50%;
-    margin-left: 16.67%;
-    width:33.33%;
+    margin-left: 15vw;
+    margin-top:-10vw;
 }
 
 .pairThree{
     display: inline-block;
-    float: left;
-    height: 50%;
-    margin: 0 auto;
-    width:33.33%;
+    float: right;
+    margin-right: 15vw;
+    margin-top:-10vw;
 }
 
 .pairWinerOne,
 .pairWinerTwo,
 .pairWinerThree {
-	border-radius:62.5vw;/*50rem;*/ /* max. to be a circle */
-    font-size: 2.875vw;/*2.300rem;*/
-    margin-bottom: 1.25vw; /* 1rem;*/
-    color:#FFF;
-    vertical-align: middle;
-    
-    margin: 0 auto;
-	width:120px;
-    height:120px;
-}
-
-.pairWinerOne{
-    background-color: #ffd50f; /*#ffd50f*/
-}
-
-.pairWinerTwo{
-
-    background-color: #dbdbdb; /*#e6e6e6*/
-}
-
-.pairWinerThree{
-    background-color: #db9d36; /*#cd791f*/
+    font-size: 6vw;
+    margin-bottom: 0px;
 }
 
 /*********************************************************************************/
